@@ -1,21 +1,34 @@
 {
-  "name": "vanilla-app-template",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://illyabezpaliy13.github.io/Simple-Chocolate/",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
-    "preview": "vite preview"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Simple-Chocolate/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illyabezpaliy13/Simple-Chocolate.git"
+  },
+  "keywords": [],
+  "author": "0qsenxx, m1xture, illyabezpaliy13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "modern-normalize": "^1.1.0",
+    "netlify-cli": "^15.9.1"
   },
   "devDependencies": {
-    "vite": "^4.5.2",
-    "glob": "^8.1.0"
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
-  }
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
