@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/alla1969321/RE2
+  "homepage": "https://github.com/alla1969321/RE2/
 "  "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /re2/",
+    "build": "parcel build src/*.html --public-https://github.com/alla1969321/RE2/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
