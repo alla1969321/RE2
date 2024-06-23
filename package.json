@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://illyabezpaliy13.github.io/Simple-Chocolate/",
+  "homepage": "https://github.com/alla1969321/RE2
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Simple-Chocolate/",
@@ -11,8 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illyabezpaliy13/Simple-Chocolate.git"
-  },
+    "url": "git+https:/https://github.com/alla1969321/RE2
   "keywords": [],
   "author": "0qsenxx, m1xture, illyabezpaliy13",
   "license": "ISC",
