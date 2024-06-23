@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://github.com/alla1969321/RE2
-  "scripts": {
+"  "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Simple-Chocolate/",
+    "build": "parcel build src/*.html --public-url /re2/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
